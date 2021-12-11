@@ -20,6 +20,6 @@ jobs:
           NUGET_AUTH_TOKEN: ${{secrets.NUGET_KEY}}
       - run: dotnet build --configuration Release 
       - name: Create the package
-        run: dotnet pack --configuration Release -p:PackageVersion=${{ github.event.release.tag_name }} --output .
+        run: dotnet pack src/DocumentationLocalizer/DocumentationLocalizer.csproj --configuration Release -p:PackageVersion=${{ github.event.release.tag_name }} --output .
       - name: Publish the package to GPR
         run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NUGET_KEY}}

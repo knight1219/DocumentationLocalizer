@@ -1,9 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
+	<LangVersion>9</LangVersion>
+	<Description>A .NET library to help localize code documentation.</Description>
+	<Copyright>2021</Copyright>
+	<PackageProjectUrl>https://github.com/knight1219/DocumentationLocalizer</PackageProjectUrl>
   </PropertyGroup>
 
 	<ItemGroup>

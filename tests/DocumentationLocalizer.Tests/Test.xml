@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestAssembly</name>
+    </assembly>
+    <members>
+        <member name="T:TestAssembly.Class1">
+            <summary>
+            <localize lang="en-US" text="This is a test class to test localizations" />
+            <localize lang="fr" text="Ceci est une classe de test pour tester les localisations" />
+            </summary>
+        </member>
+        <member name="M:TestAssembly.Class1.MethodOne">
+            <summary>
+            <localize lang="en-US" text="This is a test method" />
+            <localize lang="zh-CN" text="这是一个测试方法" />
+            </summary>
+        </member>
+        <member name="M:TestAssembly.Class1.MethodTwo">
+            <summary>
+            This method has no translations yet.
+            </summary>
+        </member>
+    </members>
+</doc>
